@@ -1,0 +1,112 @@
+:root {
+    --primary-bg-color: #0C0C0C;
+    --secondary-bg-color: #1F1F1F;
+    --primary-font-color: #FFFFFF;
+    --secondary-font-color: #CF1B1B;
+}
+
+*, *::before,*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--primary-font-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: var(--secondary-bg-color);
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: var(--primary-font-color);
+    height: 80px;
+}
+
+.link-container {
+    display: none;
+}
+
+.small {
+    display: block !important;
+    font-size: 20px;
+}
+
+ /************************************************* ABOUT ME CONTAINER ***********************************/
+
+ .container {
+    background-color: var(--primary-bg-color);
+    height: 100vh;
+    padding-top: 40%;
+}
+
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-about-container {
+    padding: 0 5%;
+}
+
+.red-font {
+    color: var(--secondary-font-color);
+}
+
+.card-about-container h1{
+    font-size: 35px;
+    padding: 10px;
+}
+
+.card-about-container p {
+    font-size: 30px;
+    padding-left: 10px;
+}
+@media screen and (min-width: 768px){
+
+    .link-container {
+    display: flex;
+    align-items: center;
+}
+
+    .small {
+        display: none !important;
+}
+    .nav-link {
+        margin: 0 15px;
+        font-size: 18px;
+    }
+
+    /************************************************* ABOUT ME CONTAINER ***********************************/
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .nav-link {
+        margin: 0 25px;
+        font-size: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-link:hover {
+        font-size: 140%;
+        border-bottom: 3px solid var(--secondary-font-color);
+    }
+
+    /************************************************* ABOUT ME CONTAINER ***********************************/
+}
