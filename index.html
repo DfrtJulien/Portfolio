@@ -5,29 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Portfolio Julien De Freitas</title>
 </head>
 <body>
     <header>
-        <nav class="nav-container">
-            <h3 class="logo">Logo</h3>
-            <ul class="link-container">
-                <li><a href=".about-container" class="nav-link">Accueil</a></li>
-                <li><a href="#" class="nav-link">À propos</a></li>
-                <li><a href="#" class="nav-link">Compétence</a></li>
-                <li><a href="#" class="nav-link">Projets</a></li>
-                <li><a href="#" class="nav-link">Me contactez</a></li>
-            </ul>
-            <i class="fa-solid fa-bars small"></i>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="col-xs-4 text-center">
+                    <h3 class="logo text-white mx-4">Logo</h3>
+                </div>
+                <div class="col-md-8 collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href=".presentation-container" class="nav-link text-white">Accueil</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-underline-secondary-hover link-offset-1 text-white">À propos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Compétence</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Projets</a></li>
+                        <li class="nav-item"><a href=".contact_container" class="nav-link text-white">Me contactez</a></li>
+                    </ul>
+                </div>
+                    <div class="col-xs-4 d-sm-block d-md-none fs-2">
+                        <i class="fa-solid fa-bars small text-white"></i>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <section class="container">
-        <div class="about-container">
-            <div class="card-about-container">
-                <h1>Bonjour,<br /> je suis <span class="red-font">Julien</span></h1>
-                <p>Developpeur Web</p>
+    <section class="container-fluid pt-4 presentation-section">
+        <div class="row mt-5">
+            <div class="col-xs-12 col-md-7 card-presentation-container"    >
+                <h1 class="text-white display-1 ms-1">Bonjour,</h1> 
+                <p class="text-white display-1 ms-1">je suis <span class="red-font">Julien</span></p>
+                <p class="text-white fs-2 ms-1" id="passion">Developpeur Web</p>
+                <button  class="red-bg-btn fs-2 ms-1"><a href=".contact_container">Contacte</a></button>
+            </div> 
+            <div class="col-xs-6 col-md-4 mt-4 text-center pb-5">
+                <img alt="De Freitas julien Développeur web" src="/img/pexels-italo-melo-881954-2379004.jpg" class="img-fluid img-thumbnail my-img">
             </div>
         </div>
     </section>
+    <section class="container-fluid about-section">
+        <h2 class="text-center about-tittle">A propos</h2>
+        <div class="row">
+            <div class="col-8 mx-auto mt-4">
+                <h2 class="text-white fs-1">Bonjour,</h2>
+                <p class="text-white fs-3">Mon nom est Julien De Freitas j'ai 26 ans je passioné de jeux vidéo et d'histoire.J'ai appris le développement web en autodidatce pendant un ans et j'ai fait la formation du PoleS et désormais je suis a la recherche de nouveaux défis!</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
