@@ -19,7 +19,7 @@ li {
     color: var(--primary-font-color);
 }
 
-.btn-link{
+a{
     text-decoration: none;
     color: inherit;
 }
@@ -30,7 +30,7 @@ header {
     width: 100%;
 }
 
-.primary-color {
+.primary-clr {
     color: var(--primary-font-color);
 }
 
@@ -42,21 +42,19 @@ header {
     color: var(--secondary-font-color);
 }
 
-.nav-link {
-    transition: all 0.3s ease-in-out;
-}
-
-.nav-link:hover {
-    font-size: 110%;
-    border-bottom: 3px solid var(--secondary-font-color);
-}
-
-
 .secondary-bg-clr {
     background-color: var(--secondary-bg-color);
 }
 
-.presentation-section, .about-section {
+.nav-link-a{
+    transition: all 0.3s ease-in;
+}
+
+.nav-link-a:hover {
+    border-bottom: 2px solid var(--secondary-bg-color);
+}
+
+.presentation-section, .about-section, .skills-section, .projects-section, .contact-section {
     background-color: var(--primary-bg-color);
     padding-top: 50px;
 }
@@ -80,47 +78,23 @@ header {
     width: 50%;
 }
 
-.about-tittle {
+.about-tittle, .skills-tittle, .projects-tittle {
     font-size: 40px;
     color: var(--secondary-font-color);
     width: 80%;
     margin: 0 auto;
     display: inline-block;
 }
-/* .my-img {
-    width: 50%;
-    height: 50%;
-} */
- /************************************************* ABOUT ME CONTAINER ***********************************/
 
- /* .container {
-    background-color: var(--primary-bg-color);
-    height: 100vh;
-    padding-top: 40%;
+.about-text {
+    padding: 40px;
 }
 
-.about-container {
-    width: 80%;
-    margin: 0 auto;
+.projects {
+    height: 150px;
+    background-color: #29d446;
 }
 
-.card-about-container {
-    padding: 0 5%;
-}
-
-.red-font {
-    color: var(--secondary-font-color);
-}
-
-.card-about-container h1{
-    font-size: 35px;
-    padding: 10px;
-}
-
-.card-about-container p {
-    font-size: 30px;
-    padding-left: 10px;
-}*/
 @media screen and (min-width: 768px){
 
     .card-presentation-container {
@@ -136,6 +110,11 @@ header {
     .presentation-section {
         height: 90vh;
     }
+
+    .about-text {
+        font-size: 2em;
+    }
+
 } 
 
     /************************************************* ABOUT ME CONTAINER ***********************************/
