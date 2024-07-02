@@ -14,6 +14,10 @@ body {
     color: var(--primary-font-color);
 }
 
+.logo {
+    width: 80px;
+}
+
 li {
     list-style-type: none;
     color: var(--primary-font-color);
@@ -56,7 +60,10 @@ header {
 
 .presentation-section, .about-section, .skills-section, .projects-section, .contact-section {
     background-color: var(--primary-bg-color);
-    padding-top: 50px;
+}
+
+.presentation-section, .about-section {
+    padding-top: 100px;
 }
 
 .red-font {
@@ -74,8 +81,11 @@ header {
     text-decoration: none;
     color: var(--primary-font-color);
 }
+
 .my-img {
     width: 50%;
+    transition: all 0.8s ease-in-out;
+    max-height: 500px;
 }
 
 .about-tittle, .skills-tittle, .projects-tittle {
@@ -91,11 +101,30 @@ header {
 }
 
 .projects {
-    height: 150px;
-    background-color: #29d446;
+    height: 200px;
+    overflow: hidden;
 }
 
+
+.img-projects{
+    height: 200px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.img-projects:hover {
+    transform: scale(1.2);
+}
+
+textarea {
+    resize: none;
+  }
+
 @media screen and (min-width: 768px){
+
+    .logo {
+        height: 100px;
+    }
 
     .card-presentation-container {
         text-align: center;
