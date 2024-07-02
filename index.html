@@ -13,31 +13,31 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg py-3" style="background-color: #aa1717;">
-            <div class="container-fluid">
-              <h3 class="navbar-brand" href="#">logo</h3>
+            <div class="container">
+              <img src="img/Logo2.png" class="navbar-brand logo" alt="logo">
               <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarText">
                 <ul class="navbar-nav  mx-4 mb-2 mb-lg-0">
-                  <li class="nav-item">
+                  <li class="nav-item ms-2">
                     <a class="nav-link-a primary-clr px-2 fs-4" aria-current="page" href="#about-section">A propos</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item ms-2">
                     <a class="nav-link-a primary-clr px-2 fs-4" href="#skills-section">Compétences</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item ms-2">
                     <a class="nav-link-a primary-clr px-2 fs-4" href="#projects-section">Projets</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link-a primary-clr px-2 fs-4" href="mailto:de.freitas.julien78@gmail.com">Contacte</a>
+                  <li class="nav-item ms-2">
+                    <a class="nav-link-a primary-clr px-2 fs-4" href="#contact-section">Contacte</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <section class="container-fluid pt-4 presentation-section" id="presentation-section">
+    <section class="container-fluid  presentation-section" id="presentation-section">
         <div class="row mt-5">
             <div class="col-xs-12 col-md-7 card-presentation-container">
                 <h1 class="text-white display-1 ms-1">Bonjour,</h1> 
@@ -112,24 +112,39 @@
         </div>
         <div class="row justify-content-center pt-4 ">
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"></div>
+                <div class="projects w-100"><a href="https://github.com/DfrtJulien/TP-LePoleS" target="_blank"><img src="img/tp01img.png" class="img-fluid img-projects" alt="Premier project"></a></div>
             </div>
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"></div>
+                <div class="projects w-100"><a href="https://github.com/DfrtJulien/TP02LePoleS" target="_blank"><img src="img/tp02img.png" class="img-fluid img-projects" alt="Deuxieme project"></a></div>
             </div>
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"></div>
+                <div class="projects w-100"><a href="https://github.com/DfrtJulien/TP03LePoleS" target="_blank"><img src="img/tp03img.png" class="img-fluid img-projects" alt="Troisieme project"></a></div>
             </div>
         </div>
         <div class="row justify-content-center pt-2">
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"></div>
+                <div class="projects w-100 border"><a href=""></a></div>
             </div>
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"></div>
+                <div class="projects w-100 border"><a href=""></a></div>
             </div>
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"></div>
+                <div class="projects w-100 border"><a href=""></a></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid contact-section py-4" id="contact-section">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 mx-auto">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Adresse mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ecrivez moi!</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Donner  moi votre avis!"></textarea>
+                  </div>
+                  <button class="red-bg-btn fs-3 ms-1 text-white" type="submit">Envoyer</button>
             </div>
         </div>
     </section>
