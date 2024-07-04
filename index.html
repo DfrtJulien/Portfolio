@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg py-3" style="background-color: #aa1717;">
             <div class="container">
-              <img src="img/Logo2.png" class="navbar-brand logo" alt="logo">
+              <img src="img/myLogo.png" class="navbar-brand logo" alt="logo">
               <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
               </button>
@@ -30,7 +30,7 @@
                     <a class="nav-link-a primary-clr px-2 fs-4" href="#projects-section">Projets</a>
                   </li>
                   <li class="nav-item ms-2">
-                    <a class="nav-link-a primary-clr px-2 fs-4" href="#contact-section">Contacte</a>
+                    <a class="nav-link-a primary-clr px-2 fs-4" href="#contact-section">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -43,23 +43,23 @@
                 <h1 class="text-white display-1 ms-1">Bonjour,</h1> 
                 <p class="text-white display-1 ms-1">je suis <span class="red-font">Julien</span></p>
                 <p class="text-white fs-2 ms-1" id="passion">Developpeur Web</p>
-                <button  class="red-bg-btn fs-2 ms-1"><a href="#contact-section">Contacte</a></button>
+                <button  class="red-bg-btn fs-2 ms-1"><a href="#contact-section">Contact</a></button>
             </div> 
             <div class="col-xs-6 col-md-4 mt-4 text-center pb-5">
-                <img alt="De Freitas julien Développeur web" src="/img/pexels-italo-melo-881954-2379004.jpg" class="img-fluid img-thumbnail my-img">
+                <img alt="De Freitas julien Développeur web" src="img/myIMG.png" class="img-fluid img-thumbnail my-img">
             </div>
         </div>
     </section>
     <section class="container-fluid about-section" id="about-section">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="text-center about-tittle">A propos</h2>
+                <h2 class="text-center about-tittle">À propos</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 mx-auto about-text">
                 <h2 class="text-white">Bonjour,</h2>
-                <p class="text-white">Mon nom est Julien De Freitas j'ai 26 ans je passioné de jeux vidéo et d'histoire. J'ai appris le développement web en autodidatce pendant un an et j'ai fait la formation du PoleS et désormais je suis a la recherche de nouveaux défis!</p>
+                <p class="text-white">Mon nom est Julien De Freitas j'ai 26 ans je suis passioné de jeux vidéo et d'histoire. J'ai appris le développement web en autodidatce pendant un an puis j'ai décidé de faire la formation du PoleS et désormais je suis a la recherche de nouveaux défis!</p>
             </div>
         </div>
     </section>
@@ -70,23 +70,31 @@
             </div>
         </div>
         <div class="row pt-4">
-            <div class="col-6">
+            <div class="col-6 mb-5">
                 <div class="px-md-4">
                     <div class="d-flex justify-content-md-end">
                         <i class="fa-brands fa-js align-self-center fs-4 px-2 mb-2"></i>
                         <p class="fs-4">JavaScript</p>
                     </div>
-                    <div class="d-flex justify-content-md-end">
+                    <div class="d-flex justify-content-md-end icon-1">
                         <i class="fa-brands fa-html5 align-self-center fs-4 px-2 mb-2"></i>
                         <p class="fs-4">HTML</p>
                     </div>
-                    <div class="d-flex justify-content-md-end">
+                    <div class="d-flex justify-content-md-end icon-2">
                         <i class="fa-brands fa-css3-alt align-self-center fs-4 px-2 mb-2"></i>
                         <p class="fs-4">CSS</p>
                     </div>
+                    <div class="d-flex justify-content-md-end icon-3">
+                        <i class="fa-brands fa-bootstrap align-self-center fs-4 px-2 mb-2"></i>
+                        <p class="fs-4">Boostrap</p>
+                    </div>
+                    <div class="d-flex justify-content-md-end icon-4">
+                        <i class="fa-brands fa-github align-self-center fs-4 px-2 mb-2"></i>
+                        <p class="fs-4">Github</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 mb-5">
                 <div>
                     <div class="d-flex">
                         <i class="fa-brands fa-symfony align-self-center fs-4 px-2 mb-2"></i>
@@ -100,7 +108,21 @@
                         <i class="fa-brands fa-docker align-self-center fs-4 px-2 mb-2"></i>
                         <p class="fs-4">Docker</p>
                     </div>
+                    <div class="d-flex">
+                        <i class="fa-brands fa-figma align-self-center fs-4 px-2 mb-2"></i>
+                        <p class="fs-4">Figma</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-brands fa-wordpress-simple align-self-center fs-4 px-2 mb-2"></i>
+                        <p class="fs-4">Wordpress</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="row cv-container">
+            <div class="col-12 text-center">
+                <button class="cv"><a href="img/cv_julienDEFREITAS.pdf" download="cv_Julien_DeFreitas DéveloppeurWeb">Télécharger mon CV</a></button>
+
             </div>
         </div>
     </section>
@@ -112,42 +134,47 @@
         </div>
         <div class="row justify-content-center pt-4 ">
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100"><a href="https://github.com/DfrtJulien/TP-LePoleS" target="_blank"><img src="img/tp01img.png" class="img-fluid img-projects" alt="Premier project"></a></div>
+                <div class="projects w-100 border border-5 rounded-end"><a href="index.html"><img src="img/portfolioImg.png" class="img-fluid img-projects" alt="Premier project"></a></div>
             </div>
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100"><a href="https://github.com/DfrtJulien/TP02LePoleS" target="_blank"><img src="img/tp02img.png" class="img-fluid img-projects" alt="Deuxieme project"></a></div>
+                <div class="projects w-100 border border-5 rounded-end"><a href="https://github.com/DfrtJulien/TP02LePoleS" target="_blank"><img src="img/tp02img.png" class="img-fluid img-projects" alt="Deuxieme project"></a></div>
             </div>
             <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100"><a href="https://github.com/DfrtJulien/TP03LePoleS" target="_blank"><img src="img/tp03img.png" class="img-fluid img-projects" alt="Troisieme project"></a></div>
-            </div>
-        </div>
-        <div class="row justify-content-center pt-2">
-            <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"><a href=""></a></div>
-            </div>
-            <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"><a href=""></a></div>
-            </div>
-            <div class="col-sm-12 col-md-3 mt-2">
-                <div class="projects w-100 border"><a href=""></a></div>
+                <div class="projects w-100 border border-5 rounded-end"><a href="https://github.com/DfrtJulien/TP03LePoleS" target="_blank"><img src="img/tp03img.png" class="img-fluid img-projects" alt="Troisieme project"></a></div>
             </div>
         </div>
     </section>
-    <section class="container-fluid contact-section py-4" id="contact-section">
-        <div class="row">
+    <section class="container-fluid contact-section py-4 text-center" id="contact-section">
+        <!-- <div class="row">
             <div class="col-sm-12 col-md-4 mx-auto">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Adresse mail</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@example.com">
+                    <label for="mailInput" class="form-label">Adresse mail</label>
+                    <input type="email" class="form-control" id="mailInput" placeholder="mail@example.com">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Ecrivez moi!</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Donner  moi votre avis!"></textarea>
-                  </div>
-                  <button class="red-bg-btn fs-3 ms-1 text-white" type="submit">Envoyer</button>
-            </div>
+                    <label for="textArea" class="form-label">Ecrivez moi!</label>
+                    <textarea class="form-control" id="textArea" rows="3" placeholder="Donner  moi votre avis!"></textarea>
+                  </div> -->
+                  <a href="mailto:de.freitas.julien78@gmail.com"><button class="red-bg-btn fs-3 ms-1 text-white" type="submit">Écrivez-moi un mail</button></a>
+            <!-- </div> -->
         </div>
     </section>
+    <footer class="container-fluid footer-section">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="fs-4">By Julien</p>
+            </div>
+            <div class="row col-12 text-center my-3">
+                <div>
+                    <a href="https://www.linkedin.com/in/julien-de-freitas-410912317/" target="_blank"><i class="fa-brands fa-linkedin-in fs-3 mx-2"></i></a>
+                    <a href="https://github.com/DfrtJulien" target="_blank"><i class="fa-brands fa-github fs-3 mx-2"></i></a>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <p class="fs-4">© Copyright 2024 - Julien DE FREITAS. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
